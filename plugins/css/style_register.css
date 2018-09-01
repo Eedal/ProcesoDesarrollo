@@ -1,0 +1,50 @@
+.bar-header .logo-bar {
+    position: relative;
+    /*background-color: #0d47A1;*/
+    height: 4px;
+    width: 100%;
+    z-index: 3;
+}
+.divlogin {
+    margin-top: 0px;
+    width: 450px;
+	/*height: 590px;*/
+    /*border-radius: 5%;*/
+    /*vertical-align: all;*/
+    -webkit-box-shadow: 7px 17px 43px -12px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 7px 17px 43px -12px rgba(0, 0, 0, 0.89);
+    box-shadow: 7px 17px 43px -12px rgba(0, 0, 0, 0.89);
+}
+.radius {
+    border-radius: 5%;
+}
+hr.style14 {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+body:before {
+    content: "";
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-image: url('../img/imgwelcome/5.jpeg');
+    background-size: cover;
+    z-index: -1;
+    /* Keep the background behind the content */
+    /* don't forget to use the prefixes you need */
+    -webkit-transform: scale(5);
+    -webkit-transform-origin: top left;
+    -webkit-filter: blur(2px);
+}

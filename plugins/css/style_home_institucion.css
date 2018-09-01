@@ -1,0 +1,81 @@
+.img_cover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+.img_vertical_center {
+    margin: 10px auto;
+    display: block;
+}
+.barra_izquierda {
+    height: 200vh;
+}
+.divider {
+    height: 0px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+.m10 {
+    margin: 10px;
+}
+.m20 {
+    margin: 20px;
+}
+.m30 {
+    margin: 30px;
+}
+.w-items-institucions {
+    height: 25px;
+    margin: 10px auto;
+    display: block;
+}
+.linea_items {
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: #bdbdbd;
+    height: 1px;
+}
+.collapsible-body {
+    display: none;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0rem;
+}
+.btn-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    background-color: black;
+    border-radius: 0%;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
+    opacity: .85;
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+.btn-floating:hover {
+    background-color: black !important;
+    color: black !important;
+    opacity: 1;
+}
