@@ -3,7 +3,15 @@
   padding: 30px;
 }
 .contenido{
-  margin-left: 400px;
+  margin-left: 30%;
+}
+#contenidoE{
+  margin-left: 30%;
+}
+#imagenE{
+  width: 400px;
+  height: 350px;
+  float: right;
 }
 h1{
   font-size: 30px;
